@@ -48,6 +48,8 @@
 # A/B Firmware Partitions
 /apusys                              emmc                      /dev/block/by-name/apusys                           flags=display="AI Processing Unit [ apusys ]";slotselect;backup=1;flashimg=1
 /audio_dsp                         emmc                      /dev/block/by-name/audio_dsp                      flags=display="Audio DSP Driver [ audio_dsp ]";slotselect;backup=1;flashimg=1
+/connsys_bt                        emmc                      /dev/block/by-name/connsys_bt                    flags=display="CONNSYS Bluetooth [ connsys_bt ]";slotselect;backup=1;flashimg=1
+/connsys_wifi                      emmc                      /dev/block/by-name/connsys_wifi                  flags=display="CONNSYS WiFi [ connsys_wifi ]";slotselect;backup=1;flashimg=1
 /connsys_gnss                      emmc                      /dev/block/by-name/connsys_gnss                  flags=display="CONNSYS GNSS [ connsys_gnss ]";slotselect;backup=1;flashimg=1
 /countrycode                    emmc                      /dev/block/by-name/countrycode                    flags=display="Country Code [ countrycode ]";slotselect;backup=1;flashimg=1
 /ccu                                   emmc                      /dev/block/by-name/ccu                                flags=display="Camera Control Unit Driver [ ccu ]";slotselect;backup=1;flashimg=1
