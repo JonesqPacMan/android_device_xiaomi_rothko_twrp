@@ -198,7 +198,7 @@ TW_INCLUDE_FUSE_NTFS := true
 TW_INCLUDE_FUSE_EXFAT := true
 
 # Haptic
-TW_LOAD_VENDOR_MODULES := "haptic.ko"
+TW_LOAD_VENDOR_MODULES := "si_haptic.ko haptic.ko gt9895.ko gt9896s.ko"
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
