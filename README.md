@@ -63,7 +63,8 @@
 
 **Works:**
 - [x] ADB  
-- [x] Decryption (Android 16)  
+- [ ] Decryption (Android 16)
+- [ ] Touchscreen
 - [x] Display  
 - [x] Fastbootd  
 - [x] Flashing  
